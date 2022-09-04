@@ -1,10 +1,18 @@
-import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-static';
+
+const dev = 'production' === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter({
+			fallback: '200.html'
+		}),
+		paths: {
+			// change below to your repo name
+			base: dev ? '' : '/rock-paper-scissors-frontend'
+		}
 	},
 	preprocess: [
 		preprocess({
