@@ -1,0 +1,1 @@
+import{default as a}from"../components/pages/playGame/_page.svelte-5c4722d9.js";import"./index-54148b93.js";import"./primaryButton-daf4cb16.js";import"./index-8ec3373f.js";import"./secondaryButton-35aa9e06.js";import"./singletons-c1ef4ab4.js";export{a as component};
