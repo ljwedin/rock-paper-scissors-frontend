@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: 'Roboto Mono';
+		src: url('/fonts/RobotoMono_400Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Roboto Mono';
+		src: url('/fonts/RobotoMono_500Medium.ttf');
+		font-weight: semibold;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'Roboto Mono';
+		src: url('/fonts/RobotoMono_700Bold.ttf');
+		font-weight: bold;
+		font-display: swap;
+	}
+}
