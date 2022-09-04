@@ -1,11 +1,11 @@
 {
   "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
-    "file": "_app/immutable/start-c2ada0d6.js",
+    "file": "_app/immutable/start-49885130.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
     "isEntry": true,
     "imports": [
       "_index-54148b93.js",
-      "_singletons-cf9ef3ab.js",
+      "_singletons-30136cef.js",
       "_index-8ec3373f.js"
     ],
     "dynamicImports": [
@@ -28,37 +28,37 @@
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
-    "file": "_app/immutable/components/error.svelte-63aea9eb.js",
+    "file": "_app/immutable/components/error.svelte-43a183c1.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
     "isEntry": true,
     "imports": [
       "_index-54148b93.js",
-      "_singletons-cf9ef3ab.js",
+      "_singletons-30136cef.js",
       "_index-8ec3373f.js"
     ]
   },
   "src/routes/+page.svelte": {
-    "file": "_app/immutable/components/pages/_page.svelte-d36553dd.js",
+    "file": "_app/immutable/components/pages/_page.svelte-270956aa.js",
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-54148b93.js",
-      "_secondaryButton-668372e8.js",
+      "_secondaryButton-08675586.js",
       "_primaryButton-daf4cb16.js",
-      "_singletons-cf9ef3ab.js",
+      "_singletons-30136cef.js",
       "_index-8ec3373f.js"
     ]
   },
   "src/routes/playGame/+page.svelte": {
-    "file": "_app/immutable/components/pages/playGame/_page.svelte-7b1a00bc.js",
+    "file": "_app/immutable/components/pages/playGame/_page.svelte-004808e9.js",
     "src": "src/routes/playGame/+page.svelte",
     "isEntry": true,
     "imports": [
       "_index-54148b93.js",
       "_primaryButton-daf4cb16.js",
-      "_secondaryButton-668372e8.js",
+      "_secondaryButton-08675586.js",
       "_index-8ec3373f.js",
-      "_singletons-cf9ef3ab.js"
+      "_singletons-30136cef.js"
     ]
   },
   "src/routes/result/+page.svelte": {
@@ -71,8 +71,8 @@
       "_index-8ec3373f.js"
     ]
   },
-  "_singletons-cf9ef3ab.js": {
-    "file": "_app/immutable/chunks/singletons-cf9ef3ab.js",
+  "_singletons-30136cef.js": {
+    "file": "_app/immutable/chunks/singletons-30136cef.js",
     "imports": [
       "_index-8ec3373f.js"
     ]
@@ -86,10 +86,10 @@
       "_index-54148b93.js"
     ]
   },
-  "_secondaryButton-668372e8.js": {
-    "file": "_app/immutable/chunks/secondaryButton-668372e8.js",
+  "_secondaryButton-08675586.js": {
+    "file": "_app/immutable/chunks/secondaryButton-08675586.js",
     "imports": [
-      "_singletons-cf9ef3ab.js",
+      "_singletons-30136cef.js",
       "_index-54148b93.js"
     ]
   },
@@ -110,31 +110,31 @@
     ]
   },
   ".svelte-kit/generated/nodes/1.js": {
-    "file": "_app/immutable/chunks/1-11f0025f.js",
+    "file": "_app/immutable/chunks/1-464a63cd.js",
     "src": ".svelte-kit/generated/nodes/1.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
       "_index-54148b93.js",
-      "_singletons-cf9ef3ab.js",
+      "_singletons-30136cef.js",
       "_index-8ec3373f.js"
     ]
   },
   ".svelte-kit/generated/nodes/2.js": {
-    "file": "_app/immutable/chunks/2-e3e79fea.js",
+    "file": "_app/immutable/chunks/2-e113cfbc.js",
     "src": ".svelte-kit/generated/nodes/2.js",
     "isDynamicEntry": true,
     "imports": [
       "src/routes/+page.svelte",
       "_index-54148b93.js",
-      "_secondaryButton-668372e8.js",
-      "_singletons-cf9ef3ab.js",
+      "_secondaryButton-08675586.js",
+      "_singletons-30136cef.js",
       "_index-8ec3373f.js",
       "_primaryButton-daf4cb16.js"
     ]
   },
   ".svelte-kit/generated/nodes/3.js": {
-    "file": "_app/immutable/chunks/3-fcd12ae8.js",
+    "file": "_app/immutable/chunks/3-3429337a.js",
     "src": ".svelte-kit/generated/nodes/3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -142,8 +142,8 @@
       "_index-54148b93.js",
       "_primaryButton-daf4cb16.js",
       "_index-8ec3373f.js",
-      "_secondaryButton-668372e8.js",
-      "_singletons-cf9ef3ab.js"
+      "_secondaryButton-08675586.js",
+      "_singletons-30136cef.js"
     ]
   },
   ".svelte-kit/generated/nodes/4.js": {

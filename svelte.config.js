@@ -11,6 +11,7 @@ const config = {
 			pages: 'docs',
 			assets: 'docs'
 		}),
+		prerender: { entries: [] },
 		paths: {
 			// change below to your repo name
 			base: dev ? '' : '/rock-paper-scissors-frontend'
