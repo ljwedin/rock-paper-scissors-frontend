@@ -1,0 +1,164 @@
+{
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-c2ada0d6.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js",
+      "_singletons-cf9ef3ab.js",
+      "_index-8ec3373f.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/nodes/0.js",
+      ".svelte-kit/generated/nodes/1.js",
+      ".svelte-kit/generated/nodes/2.js",
+      ".svelte-kit/generated/nodes/3.js",
+      ".svelte-kit/generated/nodes/4.js"
+    ]
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-a6e1c44d.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-07d4c679.css"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-63aea9eb.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js",
+      "_singletons-cf9ef3ab.js",
+      "_index-8ec3373f.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-d36553dd.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js",
+      "_secondaryButton-668372e8.js",
+      "_primaryButton-daf4cb16.js",
+      "_singletons-cf9ef3ab.js",
+      "_index-8ec3373f.js"
+    ]
+  },
+  "src/routes/playGame/+page.svelte": {
+    "file": "_app/immutable/components/pages/playGame/_page.svelte-7b1a00bc.js",
+    "src": "src/routes/playGame/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js",
+      "_primaryButton-daf4cb16.js",
+      "_secondaryButton-668372e8.js",
+      "_index-8ec3373f.js",
+      "_singletons-cf9ef3ab.js"
+    ]
+  },
+  "src/routes/result/+page.svelte": {
+    "file": "_app/immutable/components/pages/result/_page.svelte-1bf7ce2a.js",
+    "src": "src/routes/result/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-54148b93.js",
+      "_primaryButton-daf4cb16.js",
+      "_index-8ec3373f.js"
+    ]
+  },
+  "_singletons-cf9ef3ab.js": {
+    "file": "_app/immutable/chunks/singletons-cf9ef3ab.js",
+    "imports": [
+      "_index-8ec3373f.js"
+    ]
+  },
+  "_index-54148b93.js": {
+    "file": "_app/immutable/chunks/index-54148b93.js"
+  },
+  "_index-8ec3373f.js": {
+    "file": "_app/immutable/chunks/index-8ec3373f.js",
+    "imports": [
+      "_index-54148b93.js"
+    ]
+  },
+  "_secondaryButton-668372e8.js": {
+    "file": "_app/immutable/chunks/secondaryButton-668372e8.js",
+    "imports": [
+      "_singletons-cf9ef3ab.js",
+      "_index-54148b93.js"
+    ]
+  },
+  "_primaryButton-daf4cb16.js": {
+    "file": "_app/immutable/chunks/primaryButton-daf4cb16.js",
+    "imports": [
+      "_index-8ec3373f.js",
+      "_index-54148b93.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-952a4047.js",
+    "src": ".svelte-kit/generated/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+layout.svelte",
+      "_index-54148b93.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-11f0025f.js",
+    "src": ".svelte-kit/generated/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+      "_index-54148b93.js",
+      "_singletons-cf9ef3ab.js",
+      "_index-8ec3373f.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-e3e79fea.js",
+    "src": ".svelte-kit/generated/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte",
+      "_index-54148b93.js",
+      "_secondaryButton-668372e8.js",
+      "_singletons-cf9ef3ab.js",
+      "_index-8ec3373f.js",
+      "_primaryButton-daf4cb16.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-fcd12ae8.js",
+    "src": ".svelte-kit/generated/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/playGame/+page.svelte",
+      "_index-54148b93.js",
+      "_primaryButton-daf4cb16.js",
+      "_index-8ec3373f.js",
+      "_secondaryButton-668372e8.js",
+      "_singletons-cf9ef3ab.js"
+    ]
+  },
+  ".svelte-kit/generated/nodes/4.js": {
+    "file": "_app/immutable/chunks/4-69118a46.js",
+    "src": ".svelte-kit/generated/nodes/4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/result/+page.svelte",
+      "_index-54148b93.js",
+      "_primaryButton-daf4cb16.js",
+      "_index-8ec3373f.js"
+    ]
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-07d4c679.css",
+    "src": "src/routes/+layout.css"
+  }
+}

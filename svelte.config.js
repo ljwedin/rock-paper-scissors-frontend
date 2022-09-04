@@ -7,7 +7,9 @@ const dev = 'production' === 'development';
 const config = {
 	kit: {
 		adapter: adapter({
-			fallback: '200.html'
+			fallback: '200.html',
+			pages: 'docs',
+			assets: 'docs'
 		}),
 		paths: {
 			// change below to your repo name
