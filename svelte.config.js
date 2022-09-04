@@ -6,7 +6,7 @@ const dev = 'production' === 'development';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: static_adapter({
+		adapter: adapter({
 			fallback: '200.html'
 		}),
 		paths: {
