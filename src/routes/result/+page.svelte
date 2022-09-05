@@ -1,6 +1,7 @@
 <script>
 import { gameId, playerName } from '$lib/stores.js';
 import PrimaryButton from "$lib/primaryButton.svelte";
+import { onMount } from 'svelte';
 
 {$gameId}
 {$playerName}
@@ -20,6 +21,10 @@ async function getResult() {
         isWinner = text;
     })
 }
+
+onMount(() => {
+    getResult();
+})
   
 </script>
 

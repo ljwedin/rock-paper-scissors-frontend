@@ -5,6 +5,7 @@ import { gameId, playerName } from '$lib/stores.js';
 import Input from "$lib/input.svelte";
 import PrimaryButton from "$lib/primaryButton.svelte";
 import SecondaryButton from "$lib/secondaryButton.svelte";
+import Loader from '$lib/loader.svelte';
 
 {$gameId}
 {$playerName}
@@ -12,6 +13,7 @@ import SecondaryButton from "$lib/secondaryButton.svelte";
 let playerNameError = false;
 let gameNotFound = false;
 let enterId = false;
+let showLoader = false;
 
 function setEnterId() {
     enterId = true;
@@ -23,6 +25,7 @@ async function startNewGame() {
         return;
     } else {
         playerNameError = false;
+        showLoader = true;
 
         await fetch('https://rps-game-backend.herokuapp.com/newGame', {
             method: 'POST',
@@ -35,6 +38,7 @@ async function startNewGame() {
             .then((text) => {
                 if (!text) {
                     gameNotFound = true;
+                    showLoader = false;
                     console.log('Game not found');
                     return;
                 } else {
@@ -51,6 +55,7 @@ async function joinGame() {
         return;
     } else {
         playerNameError = false;
+        showLoader = true;
 
         await fetch('https://rps-game-backend.herokuapp.com/' + $gameId + '/join', {
             method: 'POST',
@@ -82,12 +87,20 @@ async function joinGame() {
     <h1 class="font-bold text-[4rem] mt-10 text-myYellow">Rock Paper Scissors</h1>
     <article class="flex flex-col justify-center items-center gap-10">
         <section class="flex flex-col justify-center items-center">
+            <h2 class="text-myYellow">To play:</h2>
+            <p class="text-myYellow">Enter a player name and either start a new game,</p>
+            <p class="text-myYellow">or join a game providing an existing game ID.</p>
+        </section>
+        <section class="flex flex-col justify-center items-center">
             <p class="text-myYellow">Enter player name:</p>
             <Input placeholder={'Name'} bind:value={$playerName} />
             {#if playerNameError}
                 <p class="text-red-400">Please enter player name</p>
             {/if}
         </section>
+        {#if showLoader}
+            <Loader />
+        {/if}
         {#if !enterId}
         <section class="flex flex-col justify-center items-center gap-2">
             {#if gameNotFound}
